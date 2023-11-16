@@ -2,7 +2,7 @@
     --gap: 24px;
     --content-gap: 20px;
     --nav-width: 1024px;
-    --main-width: 720px;
+    --main-width: 70%;
     --header-height: 60px;
     --footer-height: 60px;
     --radius: 8px;
@@ -14,7 +14,7 @@
     --content: rgb(31, 31, 31);
     --hljs-bg: rgb(28, 29, 33);
     --code-bg: rgb(245, 245, 245);
-    --border: rgb(238, 238, 238);
+    --heading-border: 1px dashed rgb(0, 0, 0, 0.9);
 }
 
 .dark {
@@ -27,6 +27,7 @@
     --hljs-bg: rgb(46, 46, 51);
     --code-bg: rgb(55, 56, 62);
     --border: rgb(51, 51, 51);
+    --heading-border: 1px dashed rgb(219, 219, 219, 0.9);
 }
 
 .list {

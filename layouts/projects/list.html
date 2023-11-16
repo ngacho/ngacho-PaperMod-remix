@@ -1,0 +1,49 @@
+{{- define "main" }}
+
+<header class="page-header">
+    {{- partial "breadcrumbs.html" . }}
+    <h3>
+        A random collection of somethings that I've (helped) make.
+    </h3>
+</header>
+
+{{- $pages := union .RegularPages .Sections }}
+
+{{- $paginator := .Paginate $pages }}
+
+<ul class="project-list">
+    {{- range $index, $page := $paginator.Pages }}
+    <li>
+        {{- if .Params.url }}
+        <a href="{{ .Params.url }}">
+            <h2 style="text-decoration: underline;">
+                {{ .Title }}
+            </h2>
+        </a>
+        {{- else }}
+        <h2>{{ .Title }}</h2>
+        {{- end }}
+        <div class="project-details">
+            {{- if (ne (.Param "hideSummary") true) }}
+            <div class="entry-content">
+                <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+            </div>
+            {{- end }}
+
+            {{- if .Params.tags }}
+            <div class="blog-tags">
+                {{- range .Params.tags }}
+                <p class="tag">{{ . }}</p>
+                {{- end }}
+            </div>
+            {{- end }}
+            <!-- Details content -->
+        </div>
+    </li>
+    {{- end }}
+</ul>
+
+{{- $term := .Data.Term }}
+
+
+{{- end }}{{- /* end main */ -}}
