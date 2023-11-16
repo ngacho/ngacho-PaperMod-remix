@@ -22,7 +22,7 @@
 
 {{- $term := .Data.Term }}
 <div class="blog-posts-wrapper">
-    {{- range $index, $page := $paginator.Pages }}
+    {{- range $index, $page := where $paginator.Pages "Params.draft" false }}
 
     {{- $class := "post-entry tag-entry blog-list-item" }}
     <article class="{{ $class }}" >
