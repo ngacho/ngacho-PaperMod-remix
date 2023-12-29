@@ -129,6 +129,40 @@
         width: 80%;
         margin: auto;
     }
+
+    .post-content {
+        margin: 5px auto;
+        font-size: 14px;
+    }
+    
+    .post-content h3,
+    .post-content h4,
+    .post-content h5,
+    .post-content h6 {
+        margin:18px 0 16px;
+    }
+
+    .post-title{
+        font-size: 24px;
+    }
+    
+    .post-content h1 {
+        margin: 24px auto 18px;
+        font-size: 24px;
+    }
+    
+    .post-content h2 {
+        margin: 20px auto 16px;
+        font-size: 20px;
+    }
+    
+    .post-content h3 {
+        font-size: 18px;
+    }
+    
+    .post-content h4 {
+        font-size: 14px;
+    }
    
 }
 
