@@ -6,28 +6,28 @@
     --header-height: 60px;
     --footer-height: 60px;
     --radius: 8px;
-    --theme: rgb(255, 255, 255);
-    --entry: rgb(255, 255, 255);
-    --primary: rgb(30, 30, 30);
-    --secondary: rgb(108, 108, 108);
-    --tertiary: rgb(214, 214, 214);
-    --content: rgb(31, 31, 31);
-    --hljs-bg: rgb(28, 29, 33);
-    --code-bg: rgb(245, 245, 245);
-    --heading-border: 1px dashed rgb(0, 0, 0, 0.9);
+    --theme: rgb(255,255,255); /* neutral 0 */
+    --entry: rgb(222,228,234); /** dark neutral 1100*/
+    --primary: rgb(44,62,93); /** neutral 900 **/
+    --secondary: rgb(68,84,111); /** neutral 800 **/
+    --tertiary: rgb(179,185,196); /** dark neutral 400 **/
+    --content: rgb(9,30,66); /* neutral 1100 */
+    --hljs-bg: rgb(34,39,43);  /* dark neutral 200 */
+    --code-bg: rgb(241,242,244); /* neutral 200 */
+    --heading-border: 1px dashed rgb(115,132,150); /** dark neutral 600 */
 }
 
 .dark {
-    --theme: rgb(29, 30, 32);
-    --entry: rgb(46, 46, 51);
-    --primary: rgb(218, 218, 219);
-    --secondary: rgb(155, 156, 157);
-    --tertiary: rgb(65, 66, 68);
-    --content: rgb(196, 196, 197);
-    --hljs-bg: rgb(46, 46, 51);
-    --code-bg: rgb(55, 56, 62);
-    --border: rgb(51, 51, 51);
-    --heading-border: 1px dashed rgb(219, 219, 219, 0.9);
+    --theme: rgb(22,26,29); /* dark neutral 0 */
+    --entry: rgb(40,46,51); /** dark neutral 250 */
+    --primary: rgb(182,194,207); /** dark neutral 900 **/
+    --secondary: rgb(159,173,188); /** dark neutral 800 **/
+    --tertiary: rgb(69,79,89); /** dark neutral 400 **/
+    --content: rgb(222,228,234); /* dark neutral 1100 */
+    --hljs-bg: rgb(34,39,43); /* dark neutral 200 */
+    --code-bg: rgb(40,46,51); /* dark neutral 250 */
+    --border: rgb(98,111,134); /* neutral 700 */
+    --heading-border: 1px dashed rgb(117,129,149); /** neutral 600 **/
 }
 
 .list {
