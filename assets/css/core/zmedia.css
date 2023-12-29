@@ -136,6 +136,10 @@
         font-size: 14px;
         justify-content: center;
         text-align: justify;
+        
+    }
+
+    .post-content > p {
         text-justify: inter-character;
     }
     
