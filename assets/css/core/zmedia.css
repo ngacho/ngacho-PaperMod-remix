@@ -124,9 +124,6 @@
     .main{
         width: 90%;
         max-width: 90%;
-        justify-content: center;
-        text-align: justify;
-        text-justify: inter-character;
     }
 
     .header{
@@ -137,6 +134,9 @@
     .post-content {
         margin: 5px auto;
         font-size: 14px;
+        justify-content: center;
+        text-align: justify;
+        text-justify: inter-character;
     }
     
     .post-content h3,
