@@ -9,7 +9,7 @@
     --theme: rgb(255,255,255); /* neutral 0 */
     --entry: rgb(222,228,234); /** dark neutral 1100*/
     --primary: rgb(44,62,93); /** neutral 900 **/
-    --secondary: rgb(68,84,111); /** neutral 800 **/
+    --secondary: rgb(58, 73, 98); /** neutral 800 modified to make it AAA **/
     --tertiary: rgb(179,185,196); /** dark neutral 400 **/
     --content: rgb(9,30,66); /* neutral 1100 */
     --hljs-bg: rgb(34,39,43);  /* dark neutral 200 */
