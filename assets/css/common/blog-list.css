@@ -28,6 +28,13 @@
     gap: 1em;
 }
 
+.entry-header {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 .blog-tags > .tag {
     font-family: sans-serif;
     background-color: #fda;
