@@ -16,8 +16,8 @@
     /** end of dark mode **/
     --theme: rgb(231, 253, 244); /* back ground */
     --entry: rgba(13, 140, 83, 0.2); /** blog entry card */
-    --primary: rgb(13, 140, 83); /** heading colors **/
-    --secondary: rgb(3, 33, 20); /** text colors **/
+    --primary: rgb(5, 56, 33); /** heading colors **/
+    --secondary: rgb(18, 83, 54); /** text colors **/
     --tertiary: rgb(21, 21, 229); /** go up button **/
     --content: rgb(3, 33, 20); /* blog content */
     --hljs-bg: rgb(34, 43, 37);  /* dark neutral 200 */
