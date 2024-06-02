@@ -1,6 +1,7 @@
 {{- define "main" }}
 
 <header class="page-header">
+    <meta name="follow.it-verification-code" content="em3sY330hPruFmwQhXJR"/>
     {{- partial "breadcrumbs.html" . }}
     <h3>
         <u>
@@ -13,6 +14,11 @@
                 <circle cx="5" cy="19" r="1" />
             </svg>
         </a>
+
+
+        {{ partial "subscribe.html" . }}
+
+
         
     </h3>
 </header>
